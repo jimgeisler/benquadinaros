@@ -1,5 +1,7 @@
 body {
-    background-color:#F09B4A
+    background-color:#F09B4A;
+    background-image: linear-gradient(to bottom, #F09B4A, #fa8619 );
+
 }
 h1 {
     font-size: 150%;
@@ -36,4 +38,18 @@ h5 {
     font: size 75%;
     text-align:center;
     font-style:italic;
+}
+
+.topnav {
+    text-align:right;
+    outline-width: 8px;
+    outline-color: black;
+    outline-style: ridge;
+    padding: 0%;
+
+    
+
+}
+.topnavLink {
+    padding-right:2.5%;
 }
