@@ -1,14 +1,21 @@
+
+
+
 body {
     background-color:#F09B4A;
-    background-image: linear-gradient(to bottom, #F09B4A, #fa8619 );
+    background-image: linear-gradient(to bottom, #f5c191, #efb075 );
 
 }
 h1 {
     font-size: 150%;
     text-align:center;
+    font-family:Impact;
 }
 p {
     text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left:5%;
+    padding-right:5%;
 }
 h3 {
     font-style: italic;
@@ -45,11 +52,24 @@ h5 {
     outline-width: 8px;
     outline-color: black;
     outline-style: ridge;
-    padding: 0%;
-
-    
-
+    padding: 8px;
+    background-color:#f7aa46
+}
+h6 {
+    text-align:left
 }
 .topnavLink {
     padding-right:2.5%;
 }
+
+.mainText {
+    width: 50%;
+    background-color:white;
+    margin-left: 25%;
+    margin-right:25;
+    display:block;
+    border-style:ridge;
+    margin-top:2%;
+
+}
+
